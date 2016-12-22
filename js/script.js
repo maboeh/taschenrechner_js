@@ -8,38 +8,21 @@ var plus_value = document.getElementById("+").value;
 var plus = document.getElementById("+");
 var gleich_value = document.getElementById("=").value;
 var gleich = document.getElementById("=");
+var speicher = [];
 
-var addieren = function(){
-	
-} 
 
-eins.onclick = function(){
-	document.form.anzeige.value = eins_value;
+
+clear.onclick = function() {
+
+    document.getElementById("textarea").value = "";
 };
-clear.onclick = function(){
 
-	document.getElementById("textarea").value = "";
-}
-zwei.onclick = function(){
-	document.form.anzeige.value = zwei_value;
-}
-plus.onclick = function(){
-		document.form.anzeige.value = plus_value;
-}
-gleich.onclick = function(){
+function anzeigen(wert) {
+    var display = document.getElementById("textarea").value + wert;
+    document.getElementById("textarea").value = display;
+};
 
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
+function rechnung() {
+    var ergebnis = eval(document.getElementById("textarea").value);
+    document.getElementById("textarea").value = ergebnis;
+};
