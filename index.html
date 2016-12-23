@@ -15,34 +15,33 @@
             <div class="abstand">
                 <form name="form" id="form">
                     <input id="textarea" type="text" maxlength="10" name="anzeige" disabled></form>
-                <button class="buttonAnzeige" type="button" id="c">C</button>
+                <button class="buttonAnzeige" type="button" id="c" onmouseover="leuchten(0)">C</button>
             </div>
             <div class="abstand">
-                <button class="buttonAnzeige" type="button" id="1" value="1" onclick="anzeigen(1)">1</button>
-                <button class="buttonAnzeige" type="button" id="2" value="2" onclick="anzeigen(2)">2</button>
-                <button class="buttonAnzeige" type="button" id="3" value="3" onclick="anzeigen(3)">3</button>
-                <button class="buttonAnzeige" type="button" id="+" value="+" onclick="anzeigen('+')">+</button>
+                <button class="buttonAnzeige" type="button" id="1" value="1" onclick="anzeigen(1)" onmouseover="leuchten(1)">1</button>
+                <button class="buttonAnzeige" type="button" id="2" value="2" onclick="anzeigen(2)" onmouseover="leuchten(2)">2</button>
+                <button class="buttonAnzeige" type="button" id="3" value="3" onclick="anzeigen(3)" onmouseover="leuchten(3)">3</button>
+                <button class="buttonAnzeige" type="button" id="+" value="+" onclick="anzeigen('+')" onmouseover="leuchten(4)">+</button>
             </div>
             <div class="abstand">
-                <button class="buttonAnzeige" type="button" id="4" value="4" onclick="anzeigen(4)">4</button>
-                <button class="buttonAnzeige" type="button" id="5" value="5" onclick="anzeigen(5)">5</button>
-                <button class="buttonAnzeige" type="button" id="6" value="6" onclick="anzeigen(6)">6</button>
-                <button class="buttonAnzeige" type="button" id="-" value="-" onclick="anzeigen('-')">-</button>
+                <button class="buttonAnzeige" type="button" id="4" value="4" onclick="anzeigen(4)" onmouseover="leuchten(5)">4</button>
+                <button class="buttonAnzeige" type="button" id="5" value="5" onclick="anzeigen(5)" onmouseover="leuchten(6)">5</button>
+                <button class="buttonAnzeige" type="button" id="6" value="6" onclick="anzeigen(6)" onmouseover="leuchten(7)">6</button>
+                <button class="buttonAnzeige" type="button" id="-" value="-" onclick="anzeigen('-')" onmouseover="leuchten(8)">-</button>
             </div>
             <div class="abstand">
-                <button class="buttonAnzeige" type="button" id="7" value="7" onclick="anzeigen(7)">7</button>
-                <button class="buttonAnzeige" type="button" id="8" value="8" onclick="anzeigen(8)">8</button>
-                <button class="buttonAnzeige" type="button" id="9" value="9" onclick="anzeigen(9)">9</button>
-                <button class="buttonAnzeige" type="button" id="/" value="/" onclick="anzeigen('/')">/</button>
+                <button class="buttonAnzeige" type="button" id="7" value="7" onclick="anzeigen(7)" onmouseover="leuchten(9)">7</button>
+                <button class="buttonAnzeige" type="button" id="8" value="8" onclick="anzeigen(8)" onmouseover="leuchten(10)">8</button>
+                <button class="buttonAnzeige" type="button" id="9" value="9" onclick="anzeigen(9)" onmouseover="leuchten(11)">9</button>
+                <button class="buttonAnzeige" type="button" id="/" value="/" onclick="anzeigen('/')" onmouseover="leuchten(12)">/</button>
             </div>
             <div class="abstand">
-                <button class="buttonAnzeige" type="button" id="0" value="0" onclick="anzeigen(0)">0</button>
-                <button class="buttonAnzeige" type="button" id="." value="." onclick="anzeigen('.')">.</button>
-                <button class="buttonAnzeige" type="button" id="=" value="=" onclick="rechnung()">=</button>
-                <button class="buttonAnzeige" type="button" id="*" value="*" onclick="anzeigen('*')">*</button>
+                <button class="buttonAnzeige" type="button" id="0" value="0" onclick="anzeigen(0)" onmouseover="leuchten(13)">0</button>
+                <button class="buttonAnzeige" type="button" id="." value="." onclick="anzeigen('.')" onmouseover="leuchten(14)">.</button>
+                <button class="buttonAnzeige" type="button" id="=" value="=" onclick="rechnung()" onmouseover="leuchten(15)">=</button>
+                <button class="buttonAnzeige" type="button" id="*" value="*" onclick="anzeigen('*')" onmouseover="leuchten(16)">*</button>
             </div>
 
-            <p id="p"></p>
 
 
         </div>

@@ -1,42 +1,48 @@
-html{
-	font-family: sans-serif;
+html {
+    font-family: sans-serif;
+}
 
+body {
+    background: #BBA2FF;
 }
-body{
-	background: #BBA2FF;
-}
-h1{
-	text-align: center;
-}
-.abstand{
-	margin:5px;
-	width:194px;
 
+h1 {
+    text-align: center;
 }
-.buttonAnzeige{
-	width: 45px;
-	height:40px;
+
+.abstand {
+    margin: 5px;
+    width: 194px;
 }
-#c{
-	top:5px;
-	right:5px;
+
+.buttonAnzeige {
+    width: 45px;
+    height: 40px;
 }
-#form{
-	width: 144px;
-	height: 40px;
-	box-sizing: border-box;
-	display: inline-block;
+
+#c {
+    top: 5px;
+    right: 5px;
 }
-#rahmen{
-	margin:auto auto;
-	width:203px;
-	height:230px;
-	border:3px solid black;
-	background-color:lightgrey;
+
+#form {
+    width: 144px;
+    height: 40px;
+    box-sizing: border-box;
+    display: inline-block;
 }
-#textarea{
-	width:144px;
-	height: 40px;
-	border:none;
-	padding:0;
+
+#rahmen {
+    margin: auto auto;
+    width: 203px;
+    height: 230px;
+    border: 3px solid black;
+    background-color: lightgrey;
+}
+
+#textarea {
+    width: 144px;
+    height: 40px;
+    border: none;
+    padding: 0;
 }
